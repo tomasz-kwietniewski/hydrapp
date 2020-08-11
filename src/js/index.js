@@ -11,7 +11,7 @@ console.log('HELLO 🚀')
 const glassCounter = document.querySelector('.glass__counter--js');
 const addButton = document.querySelector('.add-button--js');
 const removeButton = document.querySelector('.remove-button--js');
-const key = new Date().toLocaleString().slice(0, 10);
+const key = new Date().toISOString().slice(0, 10);
 
 console.log(key);
 
